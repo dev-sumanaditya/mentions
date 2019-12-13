@@ -1,0 +1,9 @@
+.style1 {
+    color: red;
+}
+.input1 {
+    border: 2px solid black;
+    max-height: 50px;
+    overflow: scroll;
+    padding: 10px;
+}

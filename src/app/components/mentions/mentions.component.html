@@ -1,0 +1,11 @@
+<h2>Content editable input</h2>
+
+<p contenteditable="true" [ngxTribute]="Options" (input)="hey($event.target.innerHTML)" class="input1" (onMentioned)="mention($event)"></p>
+
+<br>
+<h3>Html fromat</h3>
+<span [innerHtml]="text"></span>
+
+<hr>
+<h3>Text format</h3>
+<p>{{text}}</p>
